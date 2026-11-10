@@ -9,20 +9,23 @@
 - GitHub 저장소 화면 자체는 웹사이트 실행 화면이 아닙니다. 공개 배포는 별도 결정합니다.
 
 ## 구성
+
+클라우드 자동화 전용 교육입니다. 40~50분은 SharePoint 첨부 저장 5분과 Excel 미완료 업무 요약 5분으로 진행합니다.
+
 - 1시간 시작 코스: 개념/준비 10분 → 본인 메일 10분 → 메일-Teams 20분 → 활용 시연 10분 → 확인/중지 10분
-- 12개 레슨, 단계별 안내 63개, 완료 체크와 브라우저 로컬 진도
-- 클라우드 실습 4개 + 데스크톱 파일 복사 실습 1개
+- 10개 레슨, 단계별 안내 53개, 완료 체크와 브라우저 로컬 진도
+- Outlook·Teams·SharePoint·Excel 클라우드 실습 4개
 - 계정 연결 없는 메일→Teams 가상 연습: 필터 일치/불일치
 - 16개 쉬운 용어, 오류 해결 FAQ, 6문제 이해도 체크
 - 60분 수업 타이머, 강사 준비 노트, 검색, 인쇄용 스타일
-- Microsoft Learn 공식 출처 14개, 확인일 2026-11-03
+- Microsoft Learn 공식 출처 11개, 확인일 2026-11-03
 
 ## 파일
 
 GitHub에는 독립형 index.html과 설명, 실습자료 묶음 practice-materials.zip을 저장합니다. 아래 materials/ 파일은 ZIP을 풀면 확인할 수 있고, 사이트 자료실에서도 개별 다운로드할 수 있습니다.
 - index.html: CSS/JS/교육 데이터/다운로드 자료를 포함한 독립형 사이트
 - materials/sample-tasks.xlsx: Tasks 테이블, 가상 업무 5건, 미완료 3건
-- materials/sample-notice.txt: SharePoint 첨부·데스크톱 복사용 가상 파일
+- materials/sample-notice.txt: SharePoint 첨부 저장용 가상 파일
 - materials/test-email.txt: 본인 테스트 메일 예시
 - materials/instructor-notes.md: 60분 강의 진행 노트
 - materials/automation-canvas.md: 업무 자동화 설계 템플릿
@@ -38,7 +41,7 @@ GitHub에는 독립형 index.html과 설명, 실습자료 묶음 practice-materi
 - 완료 체크는 현재 브라우저의 localStorage(flow-class-v1)에만 저장됩니다. 계정 동기화·출결·공식 수료 인증이 아닙니다.
 - 강사 준비 체크는 현재 화면용입니다. 새로고침하면 초기화됩니다.
 - 타이머·퀴즈는 현재 탭의 메모리에서만 유지됩니다. 새로고침하면 초기화됩니다.
-- 예약 실행·프리미엄·클라우드-데스크톱 호출·무인 실행은 기본 실습에서 제외하며 별도 조건을 확인합니다.
+- 예약 실행·프리미엄 커넥터·AI Builder는 기본 실습에서 제외하며 별도 조건을 확인합니다.
 - 실습용 Excel의 DueDate는 고정 ISO 날짜 텍스트입니다. 기본 예제는 Status만 필터링하며 날짜 계산은 하지 않습니다.
 - 실제 업무자료·계정·내부 링크·인증정보를 이 저장소에 넣지 마세요.
 
